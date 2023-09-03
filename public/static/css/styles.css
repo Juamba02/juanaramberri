@@ -148,6 +148,10 @@ body {
   scrollbar-color: lightgray; /* scroll thumb and track */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 .header {
@@ -312,6 +316,11 @@ body {
   width: 4rem;
 }
 
+.skillImage {
+  width: 80%;
+  height: auto;
+}
+
 .aboutSection {
   background-color: white;
   position: relative;
@@ -337,6 +346,7 @@ body {
 
 .aboutImage {
   width: 100%;
+  height: auto;
 }
 
 .infoAboutDiv {
@@ -746,6 +756,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+
+  .circles {
+    margin: 0;
   }
 
   .infoIcons {

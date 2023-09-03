@@ -2,7 +2,7 @@ import React from "react";
 
 const Inicio = () => {
   return (
-    <section className="inicioSection">
+    <section className="inicioSection" id="inicio">
       <div className="introContainer">
         <div className="divDesc">
           <div className="divSubtitulo">
@@ -30,13 +30,13 @@ const Inicio = () => {
         <p className="skillsTitle">Skills   | </p>
         <p className="skillsTitle inactive">Skills</p>
         <ul className="skillsList">
-            <li className="skills"><img src="/static/img/html.png" alt="HTML5" title="HTML5" /></li>
-            <li className="skills"><img src="/static/img/css.png" alt="CSS3" title="CSS3" /></li>
-            <li className="skills"><img src="/static/img/js.png" alt="JavaScript" title="JavaScript" /></li>
-            <li className="skills"><img src="/static/img/react.png" alt="ReactJS" title="ReactJS" /></li>
-            <li className="skills"><img src="/static/img/node.png" alt="NodeJS" title="NodeJS" /></li>
-            <li className="skills"><img src="/static/img/php.png" alt="PHP" title="PHP" /></li>
-            <li className="skills"><img src="/static/img/mysql.png" alt="MySQL" title="MySQL" /></li>
+            <li className="skills"><img src="/static/img/html.png" alt="HTML5" title="HTML5" className="skillImage"/></li>
+            <li className="skills"><img src="/static/img/css.png" alt="CSS3" title="CSS3" className="skillImage" /></li>
+            <li className="skills"><img src="/static/img/js.png" alt="JavaScript" title="JavaScript" className="skillImage" /></li>
+            <li className="skills"><img src="/static/img/react.png" alt="ReactJS" title="ReactJS" className="skillImage" /></li>
+            <li className="skills"><img src="/static/img/node.png" alt="NodeJS" title="NodeJS" className="skillImage" /></li>
+            <li className="skills"><img src="/static/img/php.png" alt="PHP" title="PHP" className="skillImage" /></li>
+            <li className="skills"><img src="/static/img/mysql.png" alt="MySQL" title="MySQL" className="skillImage" /></li>
         </ul>
       </div>
     </section>
