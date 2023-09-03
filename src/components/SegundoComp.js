@@ -2,7 +2,12 @@ import React from "react";
 
 const Segundo = () => {
     return(
-        <div className="tarjetas">
+        <div className="tarjetasReverse">
+          <div className="divImgTarjetas">
+            <a href="https://www.perlalenceria.com/">
+              <img src="/static/img/perla.webp" className="imgTarjetas" />
+            </a>
+          </div>
           <div className="textoTarjetas">
             <p className="tituloTarjetas">Perla Lencería</p>
             <p className="descTarjetas">
@@ -13,11 +18,6 @@ const Segundo = () => {
             </p>
             <a href="https://www.perlalenceria.com/" className="linkTarjetas">
               Visitar página
-            </a>
-          </div>
-          <div className="divImgTarjetas">
-            <a href="https://www.perlalenceria.com/">
-              <img src="/static/img/perla.webp" className="imgTarjetas" />
             </a>
           </div>
         </div>

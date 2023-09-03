@@ -28,6 +28,7 @@ const Inicio = () => {
       </div>
       <div className="skillsContainer">
         <p className="skillsTitle">Skills   | </p>
+        <p className="skillsTitle inactive">Skills</p>
         <ul className="skillsList">
             <li className="skills"><img src="/static/img/html.png" alt="HTML5" title="HTML5" /></li>
             <li className="skills"><img src="/static/img/css.png" alt="CSS3" title="CSS3" /></li>

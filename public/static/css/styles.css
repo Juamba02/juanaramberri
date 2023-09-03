@@ -289,6 +289,10 @@ body {
   margin-right: 2rem;
 }
 
+.inactive {
+  display: none;
+}
+
 .skillsList {
   width: 40%;
   display: flex;
@@ -369,7 +373,7 @@ body {
   height: auto;
   background-color: #f9f9f9;
   z-index: 1;
-  padding: 8rem;
+  padding: 4rem 8rem;
 }
 
 .tituloPortfolio {
@@ -392,6 +396,19 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
+  justify-content: space-evenly;
+  height: 23rem;
+  overflow: hidden;
+  padding: 2rem;
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.tarjetasReverse {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
   height: 23rem;
   overflow: hidden;
@@ -480,12 +497,72 @@ body {
 .iconosWhite {
   transition: all 0.3s;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .iconosWhite:hover {
   cursor: pointer;
   color: rgb(115, 115, 255);
+}
+
+.contactSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 50vh;
+  background-color: white;
+  z-index: 1;
+  padding: 8rem;
+}
+
+.tituloContact {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.iconSeparator {
+  display: flex;
+  
+}
+
+.contactIconsDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circles {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  width: 4rem;
+  margin-right: 0.5rem;
+}
+
+.contactIcons {
+  color: rgb(115, 115, 255);
+}
+
+.infoIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.circleTitle {
+  font-weight: bold;
 }
 
 /* Mediaquery para tablets */
@@ -495,5 +572,189 @@ body {
 
 /* Mediaquery para celulares */
 @media (max-width: 768px) {
-	
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    gap: 1.5rem;
+    height: fit-content;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+	.nav {
+    align-items: center;
+    font-size: 1rem;
+    margin: 0;
+    gap: 1rem;
+  }
+
+  .inicioSection {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .introContainer {
+    flex-direction: column-reverse;
+    margin-top: 20vh;
+  }
+
+  .divDesc {
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divSubtitulo {
+    justify-content: space-evenly;
+  }
+
+  .subtitulo {
+    font-size: 2rem;
+  }
+
+  .imgSubtitulo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .miniDesc {
+    margin-block: 2rem;
+    text-align: center;
+  }
+
+  .links {
+    justify-content: space-evenly;
+  }
+
+  .fotoYo {
+    width: 100%;
+  }
+
+  .skillsTitle {
+    display: none;
+  }
+
+  .inactive {
+    display: block;
+    margin: 0;
+  }
+
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+    height: 15rem;
+  }
+
+  .skillsList {
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .aboutSection {
+    flex-direction: column;
+    height: fit-content;
+    padding-block: 2rem;
+  }
+
+  .aboutDiv {
+    flex-direction: column;
+  }
+
+  .aboutImageDiv, .infoAboutDiv {
+    width: 100%;
+    align-items: center;
+    margin-block: 2rem;
+  }
+
+  .aboutImageDiv {
+    height: 10rem;
+  }
+
+  .infoAboutDiv {
+    gap: 1.5rem;
+  }
+
+  .subtituloSM {
+    text-align: center;
+  }
+
+  .descAbout {
+    text-align: center;
+  }
+
+  .portfolioSection {
+    padding: 2rem;
+  }
+
+  .tituloPortfolio {
+    align-items: center;
+  }
+
+  .tarjetas {
+    flex-direction: column;
+    height: fit-content;
+    gap: 2rem;
+  }
+
+  .tarjetasReverse {
+    flex-direction: column;
+    height: fit-content;
+    gap: 2rem;
+  }
+
+  .divImgTarjetas {
+    width: 100%;
+    height: 11rem;
+  }
+
+  .imgTarjetas {
+    transform: none;
+  }
+
+  .imgTarjetas:hover {
+    transform: none;
+  }
+
+  .textoTarjetas {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .contactSection {
+    padding: 2rem;
+    gap: 2rem;
+    height: fit-content;
+  }
+
+  .tituloContact {
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contactIconsDiv {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .iconSeparator {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .infoIcons {
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
