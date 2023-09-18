@@ -5,7 +5,7 @@ const Perla = () => {
         <div className="tarjetas">
           <div className="divImgTarjetas">
             <a href="https://www.perlalenceria.com/">
-              <img src="/static/img/perla.webp" className="imgTarjetas" />
+              <img src="/static/img/perla.webp" className="imgTarjetas" alt="Perla Lencería" />
             </a>
           </div>
           <div className="textoTarjetas">
