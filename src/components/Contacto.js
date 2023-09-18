@@ -28,8 +28,8 @@ const Contacto = () => {
             </div>
             <div className="infoIcons">
               <p className="circleTitle">Mail</p>
-              <a href="mailto:juambaaramberri9@gmail.com" className="linkTarjetas">
-                juambaaramberri9@gmail.com
+              <a href="mailto:juanaramberri02@gmail.com" className="linkTarjetas">
+                juanaramberri02@gmail.com
               </a>
             </div>
           </div>
